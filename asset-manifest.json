@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/eBook/static/css/main.75a777fd.css",
+    "main.js": "/eBook/static/js/main.121ec576.js",
+    "static/media/Notebook-1.png": "/eBook/static/media/Notebook-1.bae0af5b96c24fe9cbe4.png",
+    "static/media/Notebook.png": "/eBook/static/media/Notebook.d7b14bc436ea546c1857.png",
+    "static/media/iPad.png": "/eBook/static/media/iPad.d4d9c7bffc8c0d93ee35.png",
+    "static/media/author.jpg": "/eBook/static/media/author.09b8b56d563c643e20c7.jpg",
+    "static/media/Yeeak.png": "/eBook/static/media/Yeeak.950057253459d6dae6ba.png",
+    "static/media/Rasakw.png": "/eBook/static/media/Rasakw.848e00adfef1f5e7f012.png",
+    "static/media/slick.svg": "/eBook/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/eBook/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/eBook/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/eBook/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/eBook/index.html",
+    "main.75a777fd.css.map": "/eBook/static/css/main.75a777fd.css.map",
+    "main.121ec576.js.map": "/eBook/static/js/main.121ec576.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75a777fd.css",
+    "static/js/main.121ec576.js"
+  ]
+}
