@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eBook/static/css/main.75a777fd.css",
-    "main.js": "/eBook/static/js/main.25c1a952.js",
+    "main.js": "/eBook/static/js/main.2c240df8.js",
     "static/media/Notebook-1.png": "/eBook/static/media/Notebook-1.bae0af5b96c24fe9cbe4.png",
     "static/media/Notebook.png": "/eBook/static/media/Notebook.d7b14bc436ea546c1857.png",
     "static/media/iPad.png": "/eBook/static/media/iPad.d4d9c7bffc8c0d93ee35.png",
@@ -14,10 +14,10 @@
     "static/media/slick.woff": "/eBook/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/eBook/index.html",
     "main.75a777fd.css.map": "/eBook/static/css/main.75a777fd.css.map",
-    "main.25c1a952.js.map": "/eBook/static/js/main.25c1a952.js.map"
+    "main.2c240df8.js.map": "/eBook/static/js/main.2c240df8.js.map"
   },
   "entrypoints": [
     "static/css/main.75a777fd.css",
-    "static/js/main.25c1a952.js"
+    "static/js/main.2c240df8.js"
   ]
 }
