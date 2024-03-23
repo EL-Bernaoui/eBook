@@ -20,7 +20,7 @@ function HeroSection() {
     };
   }, []);
   return (
-    <section className="hero vh-100">
+    <section className="hero vh-100" id="hero">
       <div className="container">
         <div className="row align-items-center myH">
           <div className="col-12 col-lg-6">
