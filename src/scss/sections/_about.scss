@@ -1,0 +1,41 @@
+.about {
+  background-color: #ebebeb;
+  padding-top: 150px;
+  padding-bottom: 120px;
+
+  @include breakpoints(large) {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .details {
+    h2 {
+      color: #313131;
+
+      @include breakpoints(medium) {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    h4 {
+      color: #999999;
+      line-height: 1.6;
+      font-weight: 400;
+    }
+
+    p {
+      margin-top: 3rem;
+    }
+  }
+
+  .about_img {
+    position: absolute;
+    right: 0;
+    top: 130px;
+
+    @include breakpoints(large) {
+      display: none;
+    }
+  }
+}

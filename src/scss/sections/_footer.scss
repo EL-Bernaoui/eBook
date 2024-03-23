@@ -1,0 +1,46 @@
+footer {
+  background-color: #e3e3e3;
+  padding: 1.25rem 0;
+  color: #000;
+
+  .container {
+    gap: 0.625rem 1.875rem;
+
+    @include breakpoints(medium) {
+      justify-content: center !important;
+    }
+
+    .social_media {
+      font-size: 1.125rem;
+      color: #000;
+
+      a {
+        color: #000;
+        transition: .3s ease-in-out;
+
+        &:hover {
+          color: #d66039;
+        }
+      }
+    }
+
+    .contribution {
+
+      & :first-child {
+        a {
+          color: #23527c;
+        }
+      }
+
+      & :last-child {
+        a {
+          color: #d66039;
+          font-weight: bold;
+          font-size: 0.9375rem;
+        }
+      }
+    }
+  }
+
+
+}

@@ -1,0 +1,101 @@
+.hero {
+  background: linear-gradient(45deg, #616161, #1c1c1c);
+  color: #f1eeed;
+  letter-spacing: 0.0625rem;
+
+  @include breakpoints(medium) {
+    height: auto !important;
+  }
+
+  .myH {
+    height: 100vh;
+
+    @include breakpoints(medium) {
+      height: auto !important;
+    }
+  }
+
+  .hero_img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    @include breakpoints(large) {
+      display: none;
+    }
+
+    @include breakpoints(medium) {
+      position: relative;
+      transform: none;
+      display: block !important;
+      margin: auto;
+      max-width: 100%;
+      ;
+    }
+
+  }
+
+  .details {
+    position: relative;
+
+    @include breakpoints(large) {
+      text-align: center;
+      transform: translateY(-30%);
+    }
+
+    @include breakpoints(medium) {
+      margin-top: 8rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #a9a7a6;
+      margin-bottom: 3rem;
+
+      @include breakpoints(medium) {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    p {
+      line-height: 1.8;
+    }
+
+    form {
+      margin-top: 2rem;
+
+      a {
+        color: #fff;
+        padding: 0.75rem 2.5rem;
+        font-weight: 500;
+        border: 0.0625rem solid;
+        width: 260px;
+        text-align: center;
+        // transition: .3s ease;
+      }
+
+      .about-btn {
+        border-color: #fff;
+
+        &:hover {
+          border-color: #d66039;
+          background-color: #d66039;
+        }
+      }
+
+      .purchase-btn {
+        border-color: #d66039;
+        background-color: #d66039;
+
+        &:hover {
+          border-color: #fff;
+          background-color: #fff;
+          color: black;
+        }
+      }
+
+    }
+  }
+}

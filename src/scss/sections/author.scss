@@ -1,0 +1,84 @@
+.author {
+  padding: 6.25rem 0 3.75rem;
+
+  .author_details {
+    @include breakpoints(custom) {
+      text-align: center;
+    }
+
+    .head {
+      gap: 1.875rem;
+
+      @include breakpoints(custom) {
+        flex-direction: column;
+      }
+
+      .more {
+        .author_pref {
+          @include breakpoints(custom) {
+            margin-top: 1rem !important;
+          }
+        }
+
+        h3 {
+          font-size: 1.875rem;
+        }
+      }
+    }
+
+    h5 {
+      color: #999;
+      letter-spacing: 0.0625rem;
+      line-height: 1.5;
+      font-weight: 400;
+    }
+
+    p {
+      color: #444;
+      font-size: 1.0625rem;
+
+      @include breakpoints(large) {
+        margin-top: 1.875rem !important;
+      }
+    }
+  }
+
+  .author-presentations {
+    width: fit-content;
+    margin-left: auto;
+
+    @include breakpoints(large) {
+      width: 100%;
+      margin-left: auto;
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.875rem;
+    }
+
+    .box {
+      margin-bottom: 1.25rem;
+
+      .date {
+        font-size: 0.875rem;
+
+        @include breakpoints(large) {
+          justify-content: center;
+        }
+
+        & :nth-child(5) {
+          color: #d66039;
+        }
+      }
+    }
+
+    .canceled {
+      color: #999;
+      font-weight: 400;
+      font-size: 1.5rem;
+      margin: 1.25rem 0;
+    }
+  }
+}

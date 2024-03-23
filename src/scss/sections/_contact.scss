@@ -1,0 +1,75 @@
+.contact {
+  background: #ebebeb;
+  padding: 6.25rem 0 3.75rem;
+
+  .info {
+    @include breakpoints(medium) {
+      text-align: center;
+      margin-bottom: 3.125rem;
+    }
+
+    h2 {
+      font-size: 1.875rem;
+    }
+
+    & :nth-child(2) {
+      font-size: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    h6 {
+      font-weight: bold;
+      font-size: 1.125rem;
+    }
+
+    address {
+      line-height: 1.8;
+    }
+
+    .copy {
+      cursor: copy;
+    }
+
+    & :nth-child(5) {
+      margin: 2.5rem 0 0.3125rem;
+    }
+  }
+
+  .myForm {
+    width: 100%;
+
+    .form-control {
+      padding: 0.625rem 0.75rem;
+      border-radius: 0;
+      border-color: #cbcbcb;
+
+      &:focus {
+        border-color: #d66039;
+        box-shadow: 0 0 0 0.25rem rgb(214 96 57 / 25%);
+      }
+    }
+
+    textarea.form-control {
+      height: 12.5rem;
+      width: 100%;
+      resize: none;
+      border-radius: 0;
+    }
+
+    .submit {
+      margin-top: 1.25rem;
+      width: 100%;
+      padding: 0.625rem 1.875rem;
+      font-size: 0.875rem;
+      border: 0.0125rem solid #d66039;
+      background-color: #d66039;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: #d66039;
+      }
+    }
+  }
+
+}
